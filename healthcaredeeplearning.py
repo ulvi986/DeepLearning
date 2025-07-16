@@ -17,10 +17,6 @@ encoder = LabelEncoder()
 y = encoder.fit_transform(y)
 y = y.reshape(1,-1)
 
-input_layer = 5
-hidden_layer = 100
-hidden_layer_2 = 100
-output_layer = 1
 
 #defining sigmoid
 def sigmoid(x):
